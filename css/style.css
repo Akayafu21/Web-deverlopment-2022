@@ -152,13 +152,70 @@ footer{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
 }
 
 .inside img,.inside a{
     height: 3rem;
     margin: 0 .5rem;
 }
+
+
+.othermain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.othermain > div {
+    width: 50%;
+    min-height: 10rem;
+    /* outline: 1px solid green; */
+    margin-bottom: 2rem;
+    padding: 1rem;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #ccc;
+    background-color: white;
+}
+
+.othermain > p {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.innerleft{
+    width: 10rem;
+    margin-right: 2rem;
+}
+
+.innerleft img{
+    width: 10rem;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ccc;
+    transition:all .4s ease-in-out;
+}
+
+.innerright {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerright > p {
+    font-size: 1.5rem;
+}
+
+.flip {
+    flex-direction: row-reverse;
+}
+
+.myname {
+    color: white;
+    margin-left: 2rem;
+}
+
 
 /* about me start here */
 
@@ -237,57 +294,6 @@ textarea{
     background-color: salmon;
     transition: all .4s ease-in-out;
 }
-
-.othermain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.othermain > div {
-    width: 50%;
-    min-height: 10rem;
-    /* outline: 1px solid green; */
-    margin-bottom: 2rem;
-    padding: 1rem;
-    display: flex;
-    border-radius: 25px;
-    box-shadow: 0 0 10px #ccc;
-    background-color: white;
-}
-
-.othermain > p {
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-}
-
-.innerleft{
-    width: 10rem;
-    margin-right: 2rem;
-}
-
-.innerleft img{
-    width: 10rem;
-    border-radius: 15px;
-    box-shadow: 0 0 15px #ccc;
-    transition:all .4s ease-in-out;
-}
-
-.innerright {
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.innerright > p {
-    font-size: 1.5rem;
-}
-
-.flip {
-    flex-direction: row-reverse;
-}
-
 
 /* report start here */
 
